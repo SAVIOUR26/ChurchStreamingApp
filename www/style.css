@@ -1,0 +1,226 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light background color */
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: url('logo.jpg') center/cover no-repeat; /* Use logo as header cover */
+  }
+  
+  .logo img {
+    display: none; /* Hide the logo within the header */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #live-stream, #schedule {
+    padding: 20px;
+  }
+  
+  #player-container {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+  }
+  
+  #live-status {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #past-videos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #past-videos li {
+    margin-bottom: 10px;
+  }
+  
+  #past-videos li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #past-videos li a img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  #past-videos li a h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  #load-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #load-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons li {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+/* Existing CSS styles remain unchanged */
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: url('logo.jpg') center/cover no-repeat;
+    position: relative;
+  }
+  
+  .interactive-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; /* Background color for the interactive section */
+    overflow: hidden;
+  }
+  
+  #interactive-text {
+    color: #fff;
+    font-size: 1.5em;
+    animation: blink 3s infinite alternate; /* Blinking animation */
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  /* Existing CSS styles remain unchanged */
+
+#welcome-section {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffcc00; /* Attractive color for the background */
+    margin-bottom: 20px;
+  }
+  
+  #welcome-text {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .fa-blink-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .fa-blink-container i {
+    position: absolute;
+    animation: blink 1s infinite alternate, changeColor 5s infinite;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes changeColor {
+    0%, 100% {
+      color: #007bff;
+    }
+    25% {
+      color: #ffcc00;
+    }
+    50% {
+      color: #4caf50;
+    }
+    75% {
+      color: #ff6600;
+    }
+  }
+  
+/* Existing CSS styles remain unchanged */
+
+#interactive-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #interactive-icons-container i {
+    margin: 0 10px;
+    animation: blink 1s infinite alternate, changeColor 5s infinite;
+  }
+  

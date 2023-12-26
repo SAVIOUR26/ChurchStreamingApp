@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.myapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GTV</name>
+    <description>GCC Streaming App.</description>
+    <author email="saviournajuna@gmail.com" href="https://saviournajuna.site/">
+        Saviour Najuna
+    </author>
+    <content src="index.html" />
+    <!-- Add or modify any other elements as needed -->
+    <platform name="android">
+    <!-- other configurations -->
+    <icon src="res/drawable-ldpi/icon.png" density="ldpi" />
+    <icon src="res/drawable-mdpi/icon.png" density="mdpi" />
+    <icon src="res/drawable-hdpi/icon.png" density="hdpi" />
+    <icon src="res/drawable-xhdpi/icon.png" density="xhdpi" />
+    <icon src="res/drawable-xxhdpi/icon.png" density="xxhdpi" />
+    <icon src="res/drawable-xxxhdpi/icon.png" density="xxxhdpi" />
+    <!-- other configurations -->
+</platform>
+
+</widget>
